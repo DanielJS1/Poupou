@@ -53,6 +53,8 @@ var DB = () => {
 
             Paths = JSON.parse(fs.readFileSync(db, 'utf-8'));
 
+            console.log(Paths);
+
             return true;
 
         } catch{
@@ -79,13 +81,13 @@ var getSite = (param) => {
 }
 
 
-/*
 
-app.listen(3000, () => {
-    console.log('Servidor rodando na porta ');
-})
 
-*/
+// app.listen(3000, () => {
+//     console.log('Servidor rodando na porta ');
+// })
+
+
 
 
 app.listen(process.env.PORT, () => {
