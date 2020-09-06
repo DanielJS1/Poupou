@@ -36,8 +36,19 @@ var DB = () => {
         links: [
 
             {
-                id: 4,
-                url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/smartphone-samsung-galaxy-a01-32gb-vermelho-2gb-ram-tela-57-cam-dupla-cam-selfie-5mp/16391013/"
+                /* notebook compaq*/
+                id: 226914400,
+                url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/notebook-compaq-presario-cq-27-intel-core-i3-4gb-240gb-ssd-141-linux/19261721/"
+            },
+            {
+                /* A71 Samsung*/
+                id: 155572900,
+                url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/smartphone-samsung-galaxy-a71-128gb-azul-6gb-ram-tela-67-cam-quadrupla-cam-selfie-32mp/13866068/"
+            },
+            {
+                /* TV Samsung*/
+                id: 225605700,
+                url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/smart-tv-crystal-uhd-4k-led-50-samsung-50tu8000-wi-fi-bluetooth-hdr-3-hdmi-2-usb/16054232/"
             }
         ]
     }
