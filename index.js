@@ -2,22 +2,12 @@ var express = require('express');
 
 var app = express();
 
-var fs = require('fs');
 const { response, json } = require('express');
 
 var db = __dirname + "\\db.json";
 
-/*
 
 
-linksample = {
-    
-    id : ID_UNICO,
-    url : URL_DO_MAGAZINE_LUIZA
-
-}
-
-*/
 
 var Paths = {
     links: [] /* COLEÇÃO DE LINKSAMPLE  */
@@ -47,23 +37,22 @@ app.get('/check', (req, res) => {
 
 var DB = () => {
 
-    if (fs.existsSync(db)) {
-
-        try {
-
-            Paths = JSON.parse(fs.readFileSync(db, 'utf-8'));
-
-            console.log(Paths);
-
-            return true;
-
-        } catch{
-
-            console.log("Seu json esta errado, confira sua sintaxe");
-
-            return false;
-        }
+    Paths = {
+        links: [
+            {
+                id: 2,
+                url: "https://residentevil.com.br/jogos/"
+            },
+            {
+                id: 3,
+                url: "https://residentevil.com.br/category/reviews/"
+            }
+        ]
     }
+
+    console.log(Paths);
+
+    return true;
 
 }
 
