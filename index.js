@@ -36,6 +36,11 @@ var DB = () => {
         links: [
 
             {
+                /* Home*/
+                id: 1,
+                url: "https://www.magazinevoce.com.br/magazinepoupoubr/"
+            },
+            {
                 /* notebook compaq*/
                 id: 226914400,
                 url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/notebook-compaq-presario-cq-27-intel-core-i3-4gb-240gb-ssd-141-linux/19261721/"
