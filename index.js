@@ -4,13 +4,8 @@ var app = express();
 
 const { response, json } = require('express');
 
-var db = __dirname + "\\db.json";
-
-
-
-
 var Paths = {
-    links: [] /* COLEÇÃO DE LINKSAMPLE  */
+    links: [] 
 }
 
 app.get('/redirect/:id', (req, res) => {
@@ -39,14 +34,7 @@ var DB = () => {
 
     Paths = {
         links: [
-            {
-                id: 2,
-                url: "https://residentevil.com.br/jogos/"
-            },
-            {
-                id: 3,
-                url: "https://residentevil.com.br/category/reviews/"
-            },
+
             {
                 id: 4,
                 url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/smartphone-samsung-galaxy-a01-32gb-vermelho-2gb-ram-tela-57-cam-dupla-cam-selfie-5mp/16391013/"
