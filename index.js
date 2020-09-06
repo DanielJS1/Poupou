@@ -40,6 +40,11 @@ app.get('/redirec/:id', (req, res) => {
 })
 
 
+app.get('/check',(req,res)=>{
+    res.json({sucesso : "Aplicação está rodando !!! "});
+})
+
+
 var DB = () => {
 
 
