@@ -13,7 +13,7 @@ var Paths = {
     links: [] /* COLEÇÃO DE LINKSAMPLE  */
 }
 
-app.get('/redirec/:id', (req, res) => {
+app.get('/redirect/:id', (req, res) => {
 
     var id = req.params.id;
 
@@ -46,11 +46,15 @@ var DB = () => {
             {
                 id: 3,
                 url: "https://residentevil.com.br/category/reviews/"
+            },
+            {
+                id: 4,
+                url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/smartphone-samsung-galaxy-a01-32gb-vermelho-2gb-ram-tela-57-cam-dupla-cam-selfie-5mp/16391013/"
             }
         ]
     }
 
-    console.log(Paths);
+    
 
     return true;
 
