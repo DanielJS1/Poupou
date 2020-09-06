@@ -40,13 +40,12 @@ app.get('/redirec/:id', (req, res) => {
 })
 
 
-app.get('/check',(req,res)=>{
-    res.json({sucesso : "Aplicação está rodando !!! "});
+app.get('/check', (req, res) => {
+    res.json({ sucesso: "Aplicação está rodando !!! " });
 })
 
 
 var DB = () => {
-
 
     if (fs.existsSync(db)) {
 
@@ -62,18 +61,13 @@ var DB = () => {
 
             return false;
         }
-
-    } else {
-
-        fs.writeFileSync(db, JSON.stringify(Paths), 'utf8');
-
-        return false;
     }
+
 }
 
 DB();
 
-var getSite = (param) => {    
+var getSite = (param) => {
 
     for (let s of Paths.links) {
         if (s.id == param) {
