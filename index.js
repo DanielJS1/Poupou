@@ -54,6 +54,11 @@ var DB = () => {
                 /* TV Samsung*/
                 id: 225605700,
                 url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/smart-tv-crystal-uhd-4k-led-50-samsung-50tu8000-wi-fi-bluetooth-hdr-3-hdmi-2-usb/16054232/"
+            },
+            {
+                /* iPhone XR*/
+                id: 155556000,
+                url: "https://www.magazinevoce.com.br/magazinepoupoubr/p/iphone-xr-apple-64gb-preto-61-12mp-ios/155556000/"
             }
         ]
     }
